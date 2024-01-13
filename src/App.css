@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background: rgb(255, 123, 145);
+}
+.container{
+display:flex ;
+justify-content: center;
+align-items: end;
+gap: 30px;
+margin-top: 150px;
+
+}
+.now{
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  margin-top: 50px
+}
+
+.p{
+  color: rgb(252, 149, 166);
+}
+.card{
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  padding: 30px 40px;
+
+}
